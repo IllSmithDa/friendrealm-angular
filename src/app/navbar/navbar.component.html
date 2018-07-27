@@ -1,13 +1,13 @@
-<div class = "navbar-container">
+<div class = "navbar-container" >
   <div class = 'test' fxLayoutAlign='space-between'>
   <div class = "navbar-item-container">        
-      <img class = "navbar-icon-item" alt='home-page' src = "https://png.icons8.com/ios/1600/home.png" onClick = {this.homePage} />
-      <img class = "navbar-icon-item" alt='messages' src="https://png.icons8.com/wired/40/000000/activity-feed-2.png" onClick = {this.newsPage} />
+      <img class = "navbar-icon-item" alt='home-page' src = "https://png.icons8.com/ios/1600/home.png" routerLink="/" />
+      <img class = "navbar-icon-item" alt='messages' src="https://png.icons8.com/wired/40/000000/activity-feed-2.png" routerLink="/news" />
   </div>
   <div class = "navbar-item-container2">
-    <button onClick = {this.myProfile} class = "navbar-button">{{profile}}</button>
-    <button onClick = {this.myAccount} class = "navbar-button"> {{account}}</button>
-    <button onClick = {this.loginPage} class = "navbar-button">{{loginState}}</button>
+    <button onClick = {this.myProfile}  routerLink="/profile" class = "navbar-button">{{profile}}</button>
+    <button onClick = {this.myAccount} routerLink="/account" class = "navbar-button"> {{account}}</button>
+    <button onClick = {this.loginPage}  routerLink="/login" class = "navbar-button">{{loginState}}</button>
   </div>
   </div>
 </div>

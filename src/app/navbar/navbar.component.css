@@ -1,9 +1,9 @@
 .navbar-container {
   height: 3em;
   background-color: #add8e6;
+  
   }
 .test {
-  justify-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
 }
